@@ -8,20 +8,27 @@ Machine learning models have already had significant development in engineering 
 graph-based data, with its adaptability, flexibility and agility, seems ideal for the complexity and flexibility of financial market and applications because it can simulate realistic transactions better compared with other format of data. In this research, we will focus on machine learning models used in credit card fraud detection and also exploration its new applications on graph-based models.
 
 ### Data Source
-(1) Dataset A:https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
-
-(2) Dataset B:https://www.kaggle.com/datasets/ealaxi/banksim1
+Dataset:https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
 ###  Methodology
 (1)Data processing (SMOTE method)
 
-(2)Feature selection and dimensionality reduction to reduce the number of input features before fed into the model
+(2)Feature selection and dimensionality reduction to reduce the number of input features before fitting into the model by particle swarm optimization
 
 (3)LSTM model with attention mechanism 
 
-(4)Try to build GNN model with dataset B
+(4)Performance Evaluation
 
-(5)Performance Evaluation
+### Code operating instruction
+Code part includes two parts. one is for feature selection and the other one is for model construction and evaluation.
+
+First open the code named "DSCI_441_final_project.ipynb" and run the first four cells and then refer to the code named "swarm_feature_selection.ipynb" to see the results of the feature selection. However it will take long time to get the results. After reading the results of the "swarm_feature_selection.ipynb", then going back to "DSCI_441_final_project.ipynb" to run the other part of codes cell by cell.
+
+The structure of "DSCI_441_final_project.ipynb" includes the following parts:
+(1) Data Preprocessing (2)Feature Extraction (3)Model Development (4)Model Assessment
+These parts is the process for exploring credit card fraud detection
+
+
 
 ### References
 https://www.tensorflow.org/api_docs/python/tf/keras/layers/Bidirectional
