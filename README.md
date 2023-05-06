@@ -30,8 +30,14 @@ The structure of "DSCI_441_final_project.ipynb" includes the following parts:
 (1) Data Preprocessing (2)Feature Extraction (3)Model Development (4)Model Assessment
 These parts is the process for exploring credit card fraud detection
 
-### Demo Video Link
-https://drive.google.com/drive/u/0/folders/1MMmgeck2T9aaTH4J2KCWwcQnsSwutXzx
+### Demo 
+
+Video Link:https://drive.google.com/drive/u/0/folders/1MMmgeck2T9aaTH4J2KCWwcQnsSwutXzx
+
+Pdf Link:https://drive.google.com/drive/u/0/folders/1MMmgeck2T9aaTH4J2KCWwcQnsSwutXzx
+
+I also upload the pdf in the github repo
+
 
 ### References
 https://www.tensorflow.org/api_docs/python/tf/keras/layers/Bidirectional
