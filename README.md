@@ -21,7 +21,7 @@ Dataset:https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 ### Code operating instruction
 Code part includes two parts. one is for feature selection and the other one is for model construction and evaluation.
 
-The original dataset it too big to upload in Github so I put them in a google drive folder. Also you can download it by the link (https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud). Due to the csv dataset relies on the path from drive folder, if it is difficult for you to run it successfully, I will also offer the google drive folder link (https://drive.google.com/drive/u/0/folders/1tmY-NsNvENfVKvUPPrbgdpx22HjzXQmG).Feel free to download the whole folder in your account and run. If it cannot run successfully, change a little bit about the dataset path in your drive folder, it will run successfully. The results will change a little bit each time you run the code but the overall conclusion is what I get in the report.
+The original dataset it too big to upload in Github so I put them in a google drive folder. Also you can download it by the link (https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud). Due to the csv dataset relies on the path from drive folder, if it is difficult for you to run it successfully, I will also offer the google drive folder link (https://drive.google.com/drive/u/0/folders/1tmY-NsNvENfVKvUPPrbgdpx22HjzXQmG). Feel free to download the whole folder in your account and run. If it cannot run successfully, change a little bit about the dataset path in your drive folder, it will run successfully. The results will change a little bit each time you run the code but the overall conclusion is what I get in the report.
 
 First open the code named "DSCI_441_final_project.ipynb" and run code before feature selection part and then refer to the code named "Feature_Selection_PSO.ipynb" to see the results of the feature selection. However it will take long time to get the results. After reading the results of the "Feature_Selection_PSO.ipynb", then going back to "DSCI_441_final_project.ipynb" to run the other part of codes cell by cell.
 
@@ -30,7 +30,8 @@ The structure of "DSCI_441_final_project.ipynb" includes the following parts:
 (1) Data Preprocessing (2)Feature Extraction (3)Model Development (4)Model Assessment
 These parts is the process for exploring credit card fraud detection
 
-
+### Demo Video Link
+https://drive.google.com/drive/u/0/folders/1MMmgeck2T9aaTH4J2KCWwcQnsSwutXzx
 
 ### References
 https://www.tensorflow.org/api_docs/python/tf/keras/layers/Bidirectional
